@@ -23,7 +23,7 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--color-iris)
+color: var(--color-iris);
 display: inline
 }
 
@@ -37,8 +37,22 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--color-navy-blue)
+color: var(--color-navy-blue);
 display: inline;
+}
+
+.logo-white-letters {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-cloud);
+    display: inline;
 }
 
 .link{
