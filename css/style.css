@@ -1,6 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
-color: 434455;
+color: var(--color-slate);
 }
 
 :root {
@@ -16,7 +16,7 @@ color: 434455;
 
 
 .logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -28,7 +28,7 @@ display: inline
 }
 
 .logo-black-letters{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -42,7 +42,7 @@ display: inline;
 }
 
 .logo-white-letters {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -190,4 +190,43 @@ color: #434455;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!Portfolio!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/*----------------------- Main-------------------------------- */
+
+.services-btn {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--color-iris);
+background-color: var(--color-cloud);
+}
+
+.services-btn:is(:hover, :focus) {
+    color: #FFFFFF;
+    background-color: var(--color-ocean);
+    cursor: pointer;
+}
+
+.services-list-tytle {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue)
+}
+
+.services-list-text{
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--color-slate);
 }
