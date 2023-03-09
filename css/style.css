@@ -208,7 +208,7 @@ body {
 
 .hero-button:is(:hover, :focus) {
     background-color: #404BBF;
-    cursor: pointer;
+    
 }
 
 /* ------------------Benefits----------- */
